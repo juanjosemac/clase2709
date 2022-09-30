@@ -1,0 +1,36 @@
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.item{
+    background-color: lightgreen;
+    color:chocolate;
+    padding:15px;
+    border: 2px solid black;
+
+    
+}
+
+
+/*
+
+#primero{
+    flex-grow:2;
+    flex-shrink: 2;
+}
+
+#segundo{   
+    flex-grow:1;
+    flex-shrink:1;
+}
+
+#tercero{
+    flex-grow:3;
+    flex-shrink: 3;
+}
+
+*/
